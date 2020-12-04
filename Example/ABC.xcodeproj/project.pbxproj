@@ -22,6 +22,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6C3FF100257A005E0030B86C /* placeholder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C3FF0FD257A005E0030B86C /* placeholder.h */; };
+		6C3FF12A257A01AA0030B86C /* ABC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FF128257A01AA0030B86C /* ABC.m */; };
+		6C3FF12F257A01FD0030B86C /* ABC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3FF129257A01AA0030B86C /* ABC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -36,8 +39,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C3FF0F9257A005E0030B86C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6C3FF100257A005E0030B86C /* placeholder.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		09ECD858636423F25B657135 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09ECD858636423F25B657135 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0BC0B25F8B23472E5A3F70C7 /* Pods-ABC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ABC_Tests/Pods-ABC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		34F891EAC688042A4B20E53D /* Pods-ABC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC_Example.debug.xcconfig"; path = "Target Support Files/Pods-ABC_Example/Pods-ABC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ABC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,13 +75,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6C3FF0FB257A005E0030B86C /* libABCBinary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libABCBinary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3FF0FD257A005E0030B86C /* placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = placeholder.h; sourceTree = "<group>"; };
+		6C3FF128257A01AA0030B86C /* ABC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABC.m; path = ../../ABC/Classes/ABC.m; sourceTree = "<group>"; };
+		6C3FF129257A01AA0030B86C /* ABC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABC.h; path = ../../ABC/Classes/ABC.h; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79DF789C35423354D0984ACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		79DF789C35423354D0984ACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7BF54A2B2BBDC771C65ECAC9 /* Pods_ABC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8639C03DC7F81A6B2476A7B1 /* Pods_ABC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E2AAA1162FD70D82AA47734 /* Pods-ABC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC_Example.release.xcconfig"; path = "Target Support Files/Pods-ABC_Example/Pods-ABC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A1DCB726D2DE7B22999C8F6D /* ABC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ABC.podspec; path = ../ABC.podspec; sourceTree = "<group>"; };
+		A1DCB726D2DE7B22999C8F6D /* ABC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ABC.podspec; path = ../ABC.podspec; sourceTree = "<group>"; };
 		B78054EBA294D50F11DE9878 /* Pods-ABC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC_Tests.release.xcconfig"; path = "Target Support Files/Pods-ABC_Tests/Pods-ABC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +112,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C3FF0F8257A005E0030B86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +128,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ABC */,
 				6003F5B5195388D20070C39A /* Tests */,
+				6C3FF0FC257A005E0030B86C /* ABCBinary */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				7D27FA2DB91CDB52CD9811A1 /* Pods */,
@@ -112,6 +140,7 @@
 			children = (
 				6003F58A195388D20070C39A /* ABC_Example.app */,
 				6003F5AE195388D20070C39A /* ABC_Tests.xctest */,
+				6C3FF0FB257A005E0030B86C /* libABCBinary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +214,16 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6C3FF0FC257A005E0030B86C /* ABCBinary */ = {
+			isa = PBXGroup;
+			children = (
+				6C3FF129257A01AA0030B86C /* ABC.h */,
+				6C3FF128257A01AA0030B86C /* ABC.m */,
+				6C3FF0FD257A005E0030B86C /* placeholder.h */,
+			);
+			path = ABCBinary;
+			sourceTree = "<group>";
+		};
 		7D27FA2DB91CDB52CD9811A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,11 +232,21 @@
 				0BC0B25F8B23472E5A3F70C7 /* Pods-ABC_Tests.debug.xcconfig */,
 				B78054EBA294D50F11DE9878 /* Pods-ABC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C3FF12E257A01ED0030B86C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3FF12F257A01FD0030B86C /* ABC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* ABC_Example */ = {
@@ -238,6 +287,24 @@
 			productReference = 6003F5AE195388D20070C39A /* ABC_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6C3FF0FA257A005E0030B86C /* ABCBinary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3FF103257A005E0030B86C /* Build configuration list for PBXNativeTarget "ABCBinary" */;
+			buildPhases = (
+				6C3FF12E257A01ED0030B86C /* Headers */,
+				6C3FF0F7257A005E0030B86C /* Sources */,
+				6C3FF0F8257A005E0030B86C /* Frameworks */,
+				6C3FF0F9257A005E0030B86C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABCBinary;
+			productName = ABCBinary;
+			productReference = 6C3FF0FB257A005E0030B86C /* libABCBinary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -251,6 +318,11 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					6C3FF0FA257A005E0030B86C = {
+						CreatedOnToolsVersion = 12.2;
+						DevelopmentTeam = RT5589E4NM;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ABC" */;
@@ -258,6 +330,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -268,6 +341,7 @@
 			targets = (
 				6003F589195388D20070C39A /* ABC_Example */,
 				6003F5AD195388D20070C39A /* ABC_Tests */,
+				6C3FF0FA257A005E0030B86C /* ABCBinary */,
 			);
 		};
 /* End PBXProject section */
@@ -375,6 +449,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3FF0F7257A005E0030B86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3FF12A257A01AA0030B86C /* ABC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +649,81 @@
 			};
 			name = Release;
 		};
+		6C3FF101257A005E0030B86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RT5589E4NM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C3FF102257A005E0030B86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RT5589E4NM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,6 +750,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3FF103257A005E0030B86C /* Build configuration list for PBXNativeTarget "ABCBinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3FF101257A005E0030B86C /* Debug */,
+				6C3FF102257A005E0030B86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
